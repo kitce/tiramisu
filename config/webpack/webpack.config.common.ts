@@ -5,10 +5,10 @@ import htmlWebpackPlugin from './plugins/html-webpack-plugin';
 
 const config: webpack.Configuration = {
   entry: {
-    main: './src/main.ts'
+    main: './src/index.tsx'
   },
   resolve: {
-    extensions: ['.ts', '.js', '.json']
+    extensions: ['.tsx', '.ts', '.js', '.json']
   },
   module: {
     rules: [
