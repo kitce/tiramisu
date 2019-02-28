@@ -8,7 +8,10 @@ const config: webpack.Configuration = {
     main: './src/main.ts'
   },
   resolve: {
-    extensions: ['.ts', '.js', '.json']
+    extensions: ['.ts', '.js', '.html', '.json'],
+    alias: {
+      vue$: 'vue/dist/vue.esm.js'
+    }
   },
   module: {
     rules: [
