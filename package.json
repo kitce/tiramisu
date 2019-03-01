@@ -25,7 +25,6 @@
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
-    "@babel/register": "^7.7.7",
     "@types/gulp": "^4.0.6",
     "@types/html-webpack-plugin": "^3.2.1",
     "@types/mini-css-extract-plugin": "^0.8.0",
@@ -48,6 +47,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-typed-css-modules": "^2.0.1",
     "gulp-uglify": "^3.0.1",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.1.0",
     "material-colors": "^1.2.6",
@@ -72,6 +72,9 @@
     "uglify-js": "^3.7.2",
     "webpack": "^4.41.4",
     "webpack-dev-server": "^3.10.0",
+		"vue-class-component": "^6.3.2",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.6.4",
     "webpack-merge": "^4.2.1"
   }
 }
