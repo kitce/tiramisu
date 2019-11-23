@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './App.scss';
+import styles from './styles.scss';
 
 interface Props {
   message: string
