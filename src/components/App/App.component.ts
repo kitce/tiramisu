@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import styles from './App.scss';
+import styles from './styles.scss';
 
 const template: string = require('./App.html');
 
