@@ -1,5 +1,4 @@
 .app {
-  height: 100px;
-  width: 100px;
-  border: solid 1px #00f;
+  @apply w-24 h-24;
+  @apply border-solid border-2 border-blue-500;
 }
