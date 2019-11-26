@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.scss';
 
 interface IProps {
-  message: string
+  message: string;
 }
 
 const App: React.FunctionComponent<IProps> = (props) => {

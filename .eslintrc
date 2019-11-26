@@ -49,9 +49,17 @@
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "sourceType": "module"
   },
   "plugins": [],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "comma-dangle": [
       "error",
@@ -100,6 +108,9 @@
     "quotes": [
       "error",
       "single"
+    ],
+    "react/prop-types": [
+      "off"
     ],
     "semi": [
       "error",
