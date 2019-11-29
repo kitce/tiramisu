@@ -6,6 +6,10 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
