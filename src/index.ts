@@ -8,5 +8,3 @@ const root = new Vue({
     app: App
   }
 });
-
-console.info(root);
