@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import './main.scss';
 
-const root = new Vue({
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const root = new Vue({ 
   el: '#root',
   components: {
     app: App
