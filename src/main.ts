@@ -1,6 +1,12 @@
+import Vue from 'vue';
 import './main.scss';
 
-console.info('Delicious');
+const root = new Vue({
+  el: '#root',
+  components: {
+    app: App
+  }
+});
 
 if (module.hot) {
   module.hot.accept();
