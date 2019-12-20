@@ -4,7 +4,7 @@ import ts from '../loaders/ts-loader';
 
 const rule: webpack.RuleSetRule = {
   // exclude: /node_modules/,
-  test: /\.ts$/,
+  test: /\.tsx?$/,
   use: [
     babel,
     ts
