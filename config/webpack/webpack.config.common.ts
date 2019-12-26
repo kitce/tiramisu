@@ -1,4 +1,5 @@
 import webpack from 'webpack';
+import html from './rules/html';
 import typescript from './rules/typescript';
 import scss from './rules/scss';
 import htmlWebpackPlugin from './plugins/html-webpack-plugin';
@@ -15,13 +16,15 @@ const config: webpack.Configuration = {
   },
   module: {
     rules: [
+      html,
       typescript,
       scss
     ]
   },
   plugins: [
     htmlWebpackPlugin
-  ]
+  ],
+  stats: 'minimal'
 };
 
 export default config;
