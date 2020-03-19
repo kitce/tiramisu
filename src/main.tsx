@@ -7,3 +7,7 @@ ReactDOM.render(
   <App message="React example" />,
   document.querySelector('#root')
 );
+
+if (module.hot) {
+  module.hot.accept();
+}
