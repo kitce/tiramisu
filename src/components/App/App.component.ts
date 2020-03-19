@@ -1,4 +1,4 @@
-import styles from './styles.scss';
+import styles from './App.styles.scss';
 
 export default class App {
   message: string;
